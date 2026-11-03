@@ -13,7 +13,7 @@ const productSans = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "tapt design",
+  title: "Design",
   description: "The start of a cohesive design system for tapt.",
 };
 
