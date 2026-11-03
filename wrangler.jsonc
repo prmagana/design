@@ -3,10 +3,12 @@
   "name": "design",
   "main": ".open-next/worker.js",
   "workers_dev": false,
-  // Cloudflare manages the DNS record and cert for a custom domain route, same as root.
+  // Zone routes, not custom domains, same as migrate: the zone came with externally managed records at the apex that
+  // wrangler will not replace, and a route catches proxied traffic on top of them. Flip to custom_domain once those
+  // records are deleted, to match root.
   "routes": [
-    { "pattern": "tapt.design", "custom_domain": true },
-    { "pattern": "www.tapt.design", "custom_domain": true }
+    { "pattern": "tapt.design/*", "zone_name": "tapt.design" },
+    { "pattern": "www.tapt.design/*", "zone_name": "tapt.design" }
   ],
   "compatibility_date": "2026-10-27",
   "compatibility_flags": ["nodejs_compat"],
