@@ -1,0 +1,917 @@
+{
+  "scannedAt": "2026-11-04T06:30:04.461Z",
+  "repos": [
+    {
+      "name": "root",
+      "sha": "c4a31a0",
+      "files": 47
+    },
+    {
+      "name": "migrate",
+      "sha": "f730a2c",
+      "files": 9
+    },
+    {
+      "name": "tracker",
+      "sha": "5b21e2b",
+      "files": 34
+    },
+    {
+      "name": "player",
+      "sha": "150d20b",
+      "files": 73
+    },
+    {
+      "name": "former",
+      "sha": "996ff6a",
+      "files": 49
+    },
+    {
+      "name": "booker",
+      "sha": "a87971d",
+      "files": 34
+    }
+  ],
+  "icons": {
+    "lucide": [
+      {
+        "name": "Brush",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "Check",
+        "uses": [
+          {
+            "repo": "player",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "name": "ChevronDown",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 1
+          },
+          {
+            "repo": "tracker",
+            "count": 1
+          },
+          {
+            "repo": "player",
+            "count": 3
+          },
+          {
+            "repo": "former",
+            "count": 1
+          },
+          {
+            "repo": "booker",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "ChevronLeft",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 1
+          },
+          {
+            "repo": "tracker",
+            "count": 1
+          },
+          {
+            "repo": "player",
+            "count": 2
+          },
+          {
+            "repo": "former",
+            "count": 2
+          },
+          {
+            "repo": "booker",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ellipsis",
+        "uses": [
+          {
+            "repo": "player",
+            "count": 1
+          },
+          {
+            "repo": "former",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "LoaderCircle",
+        "uses": [
+          {
+            "repo": "player",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "Plus",
+        "uses": [
+          {
+            "repo": "former",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "Settings",
+        "uses": [
+          {
+            "repo": "player",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "TextCursorInput",
+        "uses": [
+          {
+            "repo": "former",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "Upload",
+        "uses": [
+          {
+            "repo": "player",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "X",
+        "uses": [
+          {
+            "repo": "player",
+            "count": 2
+          },
+          {
+            "repo": "former",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "inline": [
+      {
+        "repo": "root",
+        "file": "app/gram-mark.tsx"
+      },
+      {
+        "repo": "root",
+        "file": "app/icon.svg"
+      },
+      {
+        "repo": "root",
+        "file": "app/socials.tsx"
+      },
+      {
+        "repo": "root",
+        "file": "app/tapt-mark.tsx"
+      },
+      {
+        "repo": "root",
+        "file": "app/telegram-mark.tsx"
+      },
+      {
+        "repo": "root",
+        "file": "app/theme-toggle.tsx"
+      },
+      {
+        "repo": "root",
+        "file": "app/ton-pill.tsx"
+      },
+      {
+        "repo": "root",
+        "file": "components/provider-marks.tsx"
+      },
+      {
+        "repo": "root",
+        "file": "components/telegram-button.tsx"
+      },
+      {
+        "repo": "root",
+        "file": "components/ton-connect-modal.tsx"
+      },
+      {
+        "repo": "root",
+        "file": "public/tapt.svg"
+      },
+      {
+        "repo": "migrate",
+        "file": "app/icon.svg"
+      },
+      {
+        "repo": "migrate",
+        "file": "app/tapt-mark.tsx"
+      },
+      {
+        "repo": "tracker",
+        "file": "src/components/provider-marks.tsx"
+      },
+      {
+        "repo": "tracker",
+        "file": "src/components/telegram-button.tsx"
+      },
+      {
+        "repo": "tracker",
+        "file": "src/components/ton-connect-modal.tsx"
+      },
+      {
+        "repo": "player",
+        "file": "src/components/player-glyphs.tsx"
+      },
+      {
+        "repo": "player",
+        "file": "src/components/player.tsx"
+      },
+      {
+        "repo": "player",
+        "file": "src/components/provider-marks.tsx"
+      },
+      {
+        "repo": "player",
+        "file": "src/components/sort-menu.tsx"
+      },
+      {
+        "repo": "player",
+        "file": "src/components/telegram-button.tsx"
+      },
+      {
+        "repo": "player",
+        "file": "src/components/ton-connect-modal.tsx"
+      },
+      {
+        "repo": "former",
+        "file": "src/components/provider-marks.tsx"
+      },
+      {
+        "repo": "former",
+        "file": "src/components/sort-menu.tsx"
+      },
+      {
+        "repo": "former",
+        "file": "src/components/telegram-button.tsx"
+      },
+      {
+        "repo": "former",
+        "file": "src/components/ton-connect-modal.tsx"
+      },
+      {
+        "repo": "booker",
+        "file": "src/components/provider-marks.tsx"
+      },
+      {
+        "repo": "booker",
+        "file": "src/components/telegram-button.tsx"
+      },
+      {
+        "repo": "booker",
+        "file": "src/components/ton-connect-modal.tsx"
+      }
+    ]
+  },
+  "colors": {
+    "tokens": [
+      {
+        "name": "background",
+        "repos": [
+          {
+            "repo": "root",
+            "light": "#ffffff",
+            "dark": "#000000",
+            "count": 7
+          },
+          {
+            "repo": "migrate",
+            "light": "#000",
+            "dark": null,
+            "count": 3
+          },
+          {
+            "repo": "tracker",
+            "light": "#ffffff",
+            "dark": null,
+            "count": 4
+          },
+          {
+            "repo": "player",
+            "light": "#ffffff",
+            "dark": null,
+            "count": 15
+          },
+          {
+            "repo": "former",
+            "light": "#ffffff",
+            "dark": "#0a0a0a",
+            "count": 13
+          },
+          {
+            "repo": "booker",
+            "light": "#ffffff",
+            "dark": null,
+            "count": 4
+          }
+        ]
+      },
+      {
+        "name": "edge",
+        "repos": [
+          {
+            "repo": "root",
+            "light": "oklch(92% 0.004 286.32)",
+            "dark": "oklch(27.4% 0.006 286.033)",
+            "count": 5
+          },
+          {
+            "repo": "migrate",
+            "light": "#27272a",
+            "dark": null,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "foreground",
+        "repos": [
+          {
+            "repo": "root",
+            "light": "#171717",
+            "dark": "#ededed",
+            "count": 21
+          },
+          {
+            "repo": "migrate",
+            "light": "#ededed",
+            "dark": null,
+            "count": 2
+          },
+          {
+            "repo": "tracker",
+            "light": "#171717",
+            "dark": null,
+            "count": 21
+          },
+          {
+            "repo": "player",
+            "light": "#171717",
+            "dark": null,
+            "count": 112
+          },
+          {
+            "repo": "former",
+            "light": "#171717",
+            "dark": "#ededed",
+            "count": 63
+          },
+          {
+            "repo": "booker",
+            "light": "#171717",
+            "dark": null,
+            "count": 21
+          }
+        ]
+      },
+      {
+        "name": "ink",
+        "repos": [
+          {
+            "repo": "root",
+            "light": "#000000",
+            "dark": "#ffffff",
+            "count": 11
+          },
+          {
+            "repo": "migrate",
+            "light": "#fff",
+            "dark": null,
+            "count": 2
+          }
+        ]
+      },
+      {
+        "name": "muted",
+        "repos": [
+          {
+            "repo": "root",
+            "light": "oklch(70.5% 0.015 286.067)",
+            "dark": "oklch(55.2% 0.016 285.938)",
+            "count": 3
+          },
+          {
+            "repo": "migrate",
+            "light": "#71717b",
+            "dark": null,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "spot",
+        "repos": [
+          {
+            "repo": "root",
+            "light": "oklch(96.7% 0.001 286.375)",
+            "dark": "oklch(27.4% 0.006 286.033)",
+            "count": 4
+          },
+          {
+            "repo": "migrate",
+            "light": "#27272a",
+            "dark": null,
+            "count": 0
+          }
+        ]
+      },
+      {
+        "name": "surface",
+        "repos": [
+          {
+            "repo": "root",
+            "light": "#ffffff",
+            "dark": "oklch(21% 0.006 285.885)",
+            "count": 5
+          },
+          {
+            "repo": "migrate",
+            "light": "#18181b",
+            "dark": null,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "palette": [
+      {
+        "class": "black",
+        "value": "#000",
+        "uses": [
+          {
+            "repo": "player",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "class": "black/10",
+        "value": "color-mix(in oklab, #000 10%, transparent)",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 1
+          },
+          {
+            "repo": "tracker",
+            "count": 1
+          },
+          {
+            "repo": "player",
+            "count": 2
+          },
+          {
+            "repo": "former",
+            "count": 1
+          },
+          {
+            "repo": "booker",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "class": "black/15",
+        "value": "color-mix(in oklab, #000 15%, transparent)",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 1
+          },
+          {
+            "repo": "tracker",
+            "count": 1
+          },
+          {
+            "repo": "player",
+            "count": 1
+          },
+          {
+            "repo": "former",
+            "count": 1
+          },
+          {
+            "repo": "booker",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "class": "black/30",
+        "value": "color-mix(in oklab, #000 30%, transparent)",
+        "uses": [
+          {
+            "repo": "player",
+            "count": 1
+          },
+          {
+            "repo": "former",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "class": "black/40",
+        "value": "color-mix(in oklab, #000 40%, transparent)",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 1
+          },
+          {
+            "repo": "tracker",
+            "count": 1
+          },
+          {
+            "repo": "player",
+            "count": 1
+          },
+          {
+            "repo": "former",
+            "count": 2
+          },
+          {
+            "repo": "booker",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "class": "black/5",
+        "value": "color-mix(in oklab, #000 5%, transparent)",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 2
+          },
+          {
+            "repo": "tracker",
+            "count": 2
+          },
+          {
+            "repo": "player",
+            "count": 4
+          },
+          {
+            "repo": "former",
+            "count": 4
+          },
+          {
+            "repo": "booker",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "class": "black/60",
+        "value": "color-mix(in oklab, #000 60%, transparent)",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 1
+          },
+          {
+            "repo": "tracker",
+            "count": 1
+          },
+          {
+            "repo": "player",
+            "count": 1
+          },
+          {
+            "repo": "former",
+            "count": 1
+          },
+          {
+            "repo": "booker",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "class": "red-500",
+        "value": "oklch(63.7% 0.237 25.331)",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 1
+          },
+          {
+            "repo": "tracker",
+            "count": 1
+          },
+          {
+            "repo": "player",
+            "count": 5
+          },
+          {
+            "repo": "former",
+            "count": 2
+          },
+          {
+            "repo": "booker",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "class": "red-500/8",
+        "value": "color-mix(in oklab, oklch(63.7% 0.237 25.331) 8%, transparent)",
+        "uses": [
+          {
+            "repo": "player",
+            "count": 1
+          },
+          {
+            "repo": "former",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "class": "white",
+        "value": "#fff",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 6
+          },
+          {
+            "repo": "tracker",
+            "count": 7
+          },
+          {
+            "repo": "player",
+            "count": 8
+          },
+          {
+            "repo": "former",
+            "count": 7
+          },
+          {
+            "repo": "booker",
+            "count": 7
+          }
+        ]
+      },
+      {
+        "class": "zinc-200",
+        "value": "oklch(92% 0.004 286.32)",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "class": "zinc-300",
+        "value": "oklch(87.1% 0.006 286.286)",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "class": "zinc-50",
+        "value": "oklch(98.5% 0 none)",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "class": "zinc-700",
+        "value": "oklch(37% 0.013 285.805)",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "class": "zinc-800",
+        "value": "oklch(27.4% 0.006 286.033)",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 3
+          }
+        ]
+      }
+    ],
+    "literals": [
+      {
+        "value": "#000",
+        "uses": [
+          {
+            "repo": "player",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "value": "#000000",
+        "uses": [
+          {
+            "repo": "player",
+            "count": 6
+          }
+        ]
+      },
+      {
+        "value": "#1d4f8c",
+        "uses": [
+          {
+            "repo": "former",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "value": "#1eaefb",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "value": "#207cc2",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 1
+          },
+          {
+            "repo": "tracker",
+            "count": 1
+          },
+          {
+            "repo": "player",
+            "count": 1
+          },
+          {
+            "repo": "former",
+            "count": 1
+          },
+          {
+            "repo": "booker",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "value": "#248bda",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 6
+          },
+          {
+            "repo": "tracker",
+            "count": 6
+          },
+          {
+            "repo": "player",
+            "count": 6
+          },
+          {
+            "repo": "former",
+            "count": 6
+          },
+          {
+            "repo": "booker",
+            "count": 6
+          }
+        ]
+      },
+      {
+        "value": "#2aabee",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 1
+          },
+          {
+            "repo": "tracker",
+            "count": 3
+          },
+          {
+            "repo": "player",
+            "count": 3
+          },
+          {
+            "repo": "former",
+            "count": 3
+          },
+          {
+            "repo": "booker",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "value": "#30a1f5",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "value": "#cff1fd",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 1
+          },
+          {
+            "repo": "tracker",
+            "count": 1
+          },
+          {
+            "repo": "player",
+            "count": 1
+          },
+          {
+            "repo": "former",
+            "count": 1
+          },
+          {
+            "repo": "booker",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "value": "#d6e8fc",
+        "uses": [
+          {
+            "repo": "former",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "value": "#fff",
+        "uses": [
+          {
+            "repo": "root",
+            "count": 3
+          },
+          {
+            "repo": "player",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "value": "#ffffff",
+        "uses": [
+          {
+            "repo": "player",
+            "count": 5
+          }
+        ]
+      }
+    ]
+  }
+}

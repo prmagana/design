@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "scan": "node scripts/scan.mjs",
+    "build": "npm run scan && next build",
     "start": "next start",
     "lint": "eslint",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
@@ -13,6 +14,7 @@
   },
   "dependencies": {
     "@opennextjs/cloudflare": "^1.20.15",
+    "lucide-react": "^1.68.0",
     "next": "16.4.3",
     "react": "19.3.0",
     "react-dom": "19.3.0"
