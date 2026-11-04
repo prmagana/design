@@ -19,8 +19,8 @@ export default function Home() {
         </h1>
         {/* What the page is, in two lines: an audit of the real thing, not a pitch for an ideal one. */}
         <p className="mt-6 max-w-xl text-base leading-relaxed text-muted sm:text-lg">
-          What the <span className="text-foreground">tapt</span> repos actually use: every icon, token and color, read
-          from source on each build. It gets better as they do.
+          A live view of what the <span className="text-foreground">tapt</span> repos actually use: every icon, token and
+          color, read from source on each build. A proper design system will naturally form over time.
         </p>
         <p className="mt-5 flex items-center gap-2.5 font-mono text-xs text-muted">
           {/* The live dot: a solid core and a ring that pings out of it. Still for reduced-motion users. */}
