@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
-/* tapt.so's tokens, both themes. This site follows the OS until the system defines its own switch; root keys
-   its dark: off a cookie-set data-theme instead, so the two drift only in how the theme is chosen, not what it is. */
+/* tapt.so's light tokens. Light only for now: the system is read in one theme until it defines its own switch.
+   The dark set lives in root's globals.css when it is time. */
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -10,20 +10,6 @@
   --ink: #000000; /* the mark, icons under a spotlight */
   --muted: oklch(70.5% 0.015 286.067); /* idle icons, secondary text, zinc-400 */
   --spot: oklch(96.7% 0.001 286.375); /* spotlights and knobs, zinc-100 */
-}
-
-/* Black page, not dark grey; surfaces one step up from it. */
-@media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: dark;
-    --background: #000000;
-    --foreground: #ededed;
-    --surface: oklch(21% 0.006 285.885); /* zinc-900 */
-    --edge: oklch(27.4% 0.006 286.033); /* zinc-800 */
-    --ink: #ffffff;
-    --muted: oklch(55.2% 0.016 285.938); /* zinc-500 */
-    --spot: oklch(27.4% 0.006 286.033); /* zinc-800 */
-  }
 }
 
 /* Same token names as tapt.so so bg-ink, text-muted, etc. resolve identically. */
