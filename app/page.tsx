@@ -6,7 +6,7 @@ import type { System } from "./system";
 
 const data = system as System;
 
-// A status page, not a showcase: what the tapt repos use today, as of the commits in the scan line.
+// A status page, not a showcase: what the tapt repos use today, as of the scan date.
 export default function Home() {
   return (
     <>
@@ -33,8 +33,7 @@ export default function Home() {
               <span className="relative size-2 rounded-full bg-emerald-500" />
             </span>
             <span>
-              scanned {data.scannedAt.slice(0, 10)} ·{" "}
-              {data.repos.map((r) => `${r.name}@${r.sha}`).join(" · ")}
+              scanned {data.scannedAt.slice(0, 10)}
             </span>
           </p>
           <Icons data={data.icons} />
